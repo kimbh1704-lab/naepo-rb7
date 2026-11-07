@@ -49,7 +49,7 @@ export const Hero: React.FC = () => {
               <div className="flex items-start gap-2.5">
                 <Calendar className="w-4 h-4 text-blue-600 shrink-0 mt-0.5" />
                 <div>
-                  <span className="font-semibold text-slate-900 block">공사 기간 (총 510일)</span>
+                  <span className="font-semibold text-slate-900 block">공사 기간 (총 511일)</span>
                   <span className="tabular-nums">{PROJECT_DATA.startDate} ~ {PROJECT_DATA.endDate}</span>
                 </div>
               </div>
@@ -147,11 +147,11 @@ export const Hero: React.FC = () => {
           </div>
 
           <div className="space-y-1">
-            <span className="text-xs font-medium text-slate-500">전체 공사 기간</span>
+            <span className="text-xs font-medium text-slate-500">전체 공사 기간 (변경 1회)</span>
             <div className="text-2xl sm:text-3xl font-extrabold text-slate-900 font-mono tabular-nums">
-              510 <span className="text-sm font-sans font-normal text-slate-600">일간</span>
+              511 <span className="text-sm font-sans font-normal text-slate-600">일간</span>
             </div>
-            <p className="text-[11px] text-slate-500">2026.06.15 ~ 2027.11.06</p>
+            <p className="text-[11px] text-slate-500">2026.06.15 ~ 2027.11.07</p>
           </div>
 
           <div className="space-y-1">

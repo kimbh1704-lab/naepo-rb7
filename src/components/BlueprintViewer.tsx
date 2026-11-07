@@ -232,9 +232,9 @@ export const BlueprintViewer: React.FC<BlueprintViewerProps> = ({ initialDrawing
                     className="group relative flex items-center justify-center"
                   >
                     <span className="absolute w-6 h-6 rounded-full bg-blue-500/40 animate-ping"></span>
-                    <span className="relative flex items-center gap-1.5 px-2.5 py-1 bg-blue-600 hover:bg-blue-700 text-white text-[11px] font-bold rounded-full shadow-lg border border-white/60 transition-transform group-hover:scale-110">
-                      <MapPin className="w-3 h-3 text-amber-300" />
-                      <span>{pin.label}</span>
+                    <span className="relative flex items-center gap-1.5 px-2.5 py-1 bg-blue-600 hover:bg-blue-700 text-white text-[11px] font-bold rounded-full shadow-lg border border-white/60 transition-transform group-hover:scale-110 whitespace-nowrap shrink-0">
+                      <MapPin className="w-3 h-3 text-amber-300 shrink-0" />
+                      <span className="whitespace-nowrap">{pin.label}</span>
                     </span>
                   </button>
                 </div>

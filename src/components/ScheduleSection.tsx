@@ -13,22 +13,22 @@ export const ScheduleSection: React.FC = () => {
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-8">
           <div>
             <div className="flex items-center gap-2 text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1">
-              <span>공사예정공정표 [당초] 공식 데이터 연동</span>
+              <span className="px-2 py-0.5 rounded bg-blue-100 text-blue-800 font-bold">변경 1회 승인본</span>
               <span aria-hidden="true">·</span>
               <span>18개월 종합 마일스톤</span>
             </div>
             <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight">
-              공정 일정 및 단계별 시공 계획
+              공정 일정 및 단계별 시공 계획 [변경 1회]
             </h2>
             <p className="text-slate-600 text-sm mt-1 max-w-2xl">
-              2026년 6월 15일 착공부터 2027년 11월 6일 준공까지의 공정률 곡선(S-Curve)과 월별 중점 관리 공종을 확인하세요.
+              2026년 6월 15일 착공부터 2027년 11월 7일 준공까지의 공정률 곡선(S-Curve)과 월별 중점 관리 공종을 확인하세요.
             </p>
           </div>
 
           <div className="text-right self-start md:self-end">
             <span className="text-xs font-semibold text-slate-500">전체 목표 공정률</span>
             <div className="text-xl sm:text-2xl font-black text-blue-700 font-mono tabular-nums">
-              100.0% <span className="text-xs font-sans font-medium text-slate-600">(총 510일)</span>
+              100.0% <span className="text-xs font-sans font-medium text-slate-600">(총 511일)</span>
             </div>
           </div>
         </div>
@@ -130,16 +130,16 @@ export const ScheduleSection: React.FC = () => {
 
               <div className="space-y-2 text-xs">
                 <div className="p-3 bg-white rounded-xl border border-slate-200">
-                  <span className="text-slate-500 block text-[11px]">1단계: 토공 정지기 (2026.06~10)</span>
-                  <span className="font-bold text-slate-800">절토 9만㎥ 대토공 및 침사지 5개소 구축 (누계 55%)</span>
+                  <span className="text-slate-500 block text-[11px]">1단계: 대토공 집중기 (2026.06~10)</span>
+                  <span className="font-bold text-slate-800">대학1 흙깎기(15.4만㎥), RB7 덤프운반, 침사지 1단계(8개소) 설치 (누계 45.0%)</span>
                 </div>
                 <div className="p-3 bg-white rounded-xl border border-slate-200">
-                  <span className="text-slate-500 block text-[11px]">2단계: 관로 및 기반공 (2026.11~2027.02)</span>
-                  <span className="font-bold text-slate-800">우수·오수·상수도 지중 관로 매설 및 동절기 보양 (누계 78%)</span>
+                  <span className="text-slate-500 block text-[11px]">2단계: 외부토 반입 & 관로공 (2026.11~2027.02)</span>
+                  <span className="font-bold text-slate-800">대학1 성토(17.6만㎥), 내포 3-13 우회과로 착수, 침사지 2단계 착수 (누계 72.0%)</span>
                 </div>
                 <div className="p-3 bg-white rounded-xl border border-slate-200">
-                  <span className="text-slate-500 block text-[11px]">3단계: 포장 및 마감공 (2027.03~11)</span>
-                  <span className="font-bold text-slate-800">아스콘 도로 포장, 보도블록, 조경 및 준공 검사 (100%)</span>
+                  <span className="text-slate-500 block text-[11px]">3단계: 관로 완공 & 본선 아스콘 포장 (2027.03~11)</span>
+                  <span className="font-bold text-slate-800">우수·오수·상수도 지중 관로, 침사지 2단계(9개소), 아스콘 및 보도블록 포장 (100.0%)</span>
                 </div>
               </div>
             </div>
